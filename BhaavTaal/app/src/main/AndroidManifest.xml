@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bhaavtaal">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".introslider.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".dashboard.DashboardActivity" />
+        <activity android:name=".authentication.LoginActivity" />
+        <activity android:name=".authentication.SignupActivity" />
+        <activity
+            android:name=".authentication.RegisterAsAdmin"
+            android:parentActivityName=".dashboard.DashboardActivity" />
+        <activity android:name=".authentication.RegisterAsShopKeeperActivity" />
+        <activity android:name=".authentication.VerifyOTPActivity" />
+        <activity android:name=".activities.AdminAddItemActivity" />
+    </application>
+</manifest>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BhaavTaal</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to find where the cheapest and quality food available!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends where it available with attractive deal!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Find out great discount near by you!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Keep update where awesome offers for traveling plans and book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="login">Login</string>
+    <string name="started">Starred</string>
+    <string name="inbox_string">Inbox</string>
+    <string name="sent_mail_string">Sent mail</string>
+    <string name="draft_string">Drafts</string>
+    <string name="subheader">Subheader</string>
+    <string name="trash_string">Trash</string>
+    <string name="all_mail_string">All mails</string>
+    <string name="spam_string">Spams</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+
+    <string name="register">Register</string>
+    <string name="add_item">Add Item</string>
+    <string name="about_as">About Us</string>
+    <string name="about_us_text">Now you don\'t need to go out side and wasting much time to know the current price of vegetables, fruits, stationary products, Cloths and many more product which we are using in our everyday life.
+Often we are go to market and ask price for vegetables, fruits....etc in many shops and we are only purchase the same thing from the shop where we are get cheapest price. But in such a way our huge time may be wasted.
+
+So now save your time by know the cheapest price for all this day to day groceries, vegetables, fruits and many more product before you are going out side to the market.
+
+All products and data will be you are showing in the application are near by you. the closest place comes first and so on.</string>
+
+</resources>

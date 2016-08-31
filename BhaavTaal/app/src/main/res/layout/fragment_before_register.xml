@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_register_as_shopkeep"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Register as a ShopKeeper" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_register_as_admin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="10dp"
+            android:text="Register as an Admin" />
+
+    </LinearLayout>
+</RelativeLayout>
